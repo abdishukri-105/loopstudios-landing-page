@@ -33,3 +33,15 @@
   Support
 
   © 2021 Loopstudios. All rights reserved.
+
+
+    <div className="App ">
+     
+     <div className="bg-[url('../images/desktop/image-hero.jpg')] h-screen ">
+      <div className='ml-14 mr-14'>
+      <NavBar />
+      </div>
+      <Hero />
+    </div>
+
+    </div>
