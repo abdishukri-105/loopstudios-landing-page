@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 
 import Products from '../components/Products';
-
+import Footer from '../components/Footer';
 function App() {
   return (
     <div className="App ">
@@ -18,6 +18,7 @@ function App() {
    </div>
      <About />
      <Products />
+     <Footer />
    </div>
   );
 }
