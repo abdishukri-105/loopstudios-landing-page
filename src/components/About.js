@@ -2,11 +2,11 @@ import interactiveimage from "../images/desktop/image-interactive.jpg"
 
 const About = () => {
     return ( 
-        <div className="mt-32 flex justify-center h-screen">
+ <div className="mt-32 flex ml-32 mr-32  h-screen ">
     <div className="h-2/3 mr-64 " >
-        <img src={interactiveimage} alt="vr user" className="w-full h-full object-cover rounded-lg" />
+        <img src={interactiveimage} alt="vr user" className="w-full h-full object-cover" />
     </div>
-    <div className="h-2/3 w-2/4 mr-2 bg-red mt-32  absolute right-0 z-10 bg-white p-20">
+    <div className="h-2/3 w-2/4  mr-28 bg-red mt-32  absolute right-0 z-10 bg-white p-16">
         <h1 className="text-5xl mb-4 tracking-widest uppercase" style={{fontFamily: 'Josefin Sans'}}>The leader in <br></br>interactive VR</h1>
         <p className="tracking-wide "> 
             Founded in 2011, Loopstudios has been producing world-class virtual reality 
